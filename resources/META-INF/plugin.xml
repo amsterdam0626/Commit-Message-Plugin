@@ -9,7 +9,8 @@
         <h1>提交信息生成插件</h1>
         <p>提交信息模板生成插件,用于部门代码提交信息书写规范化</p>
         <p>作者:郭翰林</p>
-        <p>插件地址:https://github.com/RmondJone/Commit-Message-Plugin</p>
+        <p>特别鸣谢:@darrachequesne</p>
+        <p>插件GitHub地址:https://github.com/RmondJone/Commit-Message-Plugin</p>
         ]]>
     </description>
 
@@ -28,8 +29,8 @@
 
     <actions>
 
-        <action id="Commit_Plugin" class="com.rmondjone.commit.CommitPluginAction"
-            text="Commit_Plugin" description="提交信息生成插件">
+        <action id="Commit-Message-Plugin" class="com.rmondjone.commit.CommitPluginAction"
+            text="Commit-Message-Plugin" description="提交信息生成插件" icon="PluginIcons.ICON">
             <add-to-group group-id="Vcs.MessageActionGroup" anchor="first" />
         </action>
     </actions>
