@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.rmondjone.commit_plugin</id>
     <name>Commit-Message-Plugin</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="2318560278@qq.com" url="https://github.com/RmondJone">郭翰林</vendor>
 
     <description>
@@ -15,13 +15,9 @@
     </description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="173.0" />
+    <idea-version since-build="145" />
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
-    <!-- uncomment to enable plugin in all products
-    <depends>com.intellij.modules.lang</depends>
-    -->
+    <depends>com.intellij.modules.vcs</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
