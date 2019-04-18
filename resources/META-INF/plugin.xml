@@ -1,13 +1,13 @@
 <idea-plugin>
-    <id>com.rmondjone.commit_plugin</id>
-    <name>Commit-Message-Plugin</name>
-    <version>1.0.1</version>
+    <id>com.rmondjone.commit_create</id>
+    <name>Commit-Message-Create</name>
+    <version>1.0.2</version>
     <vendor email="2318560278@qq.com" url="https://github.com/RmondJone">郭翰林</vendor>
 
     <description>
         <![CDATA[
         <h1>提交信息生成插件</h1>
-        <p>提交信息模板生成插件,用于部门代码提交信息书写规范化</p>
+        <p>提交信息模板生成插件,用于代码提交信息书写规范化</p>
         <p>作者:郭翰林</p>
         <p>特别鸣谢:@darrachequesne</p>
         <p>插件GitHub地址:<a href="https://github.com/RmondJone/Commit-Message-Plugin">https://github.com/RmondJone/Commit-Message-Plugin</a></p>
@@ -25,8 +25,8 @@
 
     <actions>
 
-        <action id="Commit-Message-Plugin" class="com.rmondjone.commit.CommitPluginAction"
-            text="Commit-Message-Plugin" description="提交信息生成插件" icon="PluginIcons.ICON">
+        <action id="Commit-Message-Create" class="com.rmondjone.commit.CommitPluginAction"
+            text="Commit-Message-Create" description="提交信息生成插件" icon="PluginIcons.ICON">
             <add-to-group group-id="Vcs.MessageActionGroup" anchor="first" />
         </action>
     </actions>
