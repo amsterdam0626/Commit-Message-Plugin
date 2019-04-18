@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.rmondjone.commit_plugin</id>
     <name>Commit-Message-Create</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <vendor email="2318560278@qq.com" url="https://github.com/RmondJone">郭翰林</vendor>
 
     <description>
@@ -11,6 +11,12 @@
         <p>作者:郭翰林</p>
         <p>特别鸣谢:@darrachequesne</p>
         <p>插件GitHub地址:<a href="https://github.com/RmondJone/Commit-Message-Plugin">https://github.com/RmondJone/Commit-Message-Plugin</a></p>
+
+        <h1>Submit information generation plugin</h1>
+        <p>Submit information template generation plugin for standardizing code submission information</p>
+        <p>Author: Guo Hanlin</p>
+        <p>Special thanks: @darrachequesne</p>
+        <p>Plugin GitHub address:<a href="https://github.com/RmondJone/Commit-Message-Plugin">https://github.com/RmondJone/Commit-Message-Plugin</a></p>
         ]]>
     </description>
 
