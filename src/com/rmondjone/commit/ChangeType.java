@@ -9,6 +9,7 @@ public enum ChangeType {
 
     FEAT("新增功能", "新的功能点、新的需求"),
     FIX("Bug修复", "修复的Bug:现网发散Bug、测试阶段的Bug、验收阶段的Bug"),
+    PERFECT("代码完善", "开发自测过程中遗漏的逻辑"),
     DOCS("文档修改", "只是修改了文档:注释、README.md等"),
     STYLE("样式修改", "不影响代码功能的修改:CSS样式、代码格式化等"),
     REFACTOR("代码重构", "代码更改既不修复错误也不添加功能"),
